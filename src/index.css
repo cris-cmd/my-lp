@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+/* Terminal styles */
+.terminal {
+  font-family: "Press Start 2P", monospace;
+  font-size: 12px;
+  line-height: 1.8;
+  padding: 1rem;
+  background-color: var(--cyber-black);
+  color: var(--cyber-white);
+  border: 1px solid var(--cyber-blue);
+  border-radius: 0.5rem;
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.2);
+}
+
+.terminal-output {
+  margin-bottom: 1rem;
+  white-space: pre-wrap;
+}
+
+.terminal-input {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.terminal-prompt {
+  color: var(--cyber-green);
+}
+
+.terminal-input input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: var(--cyber-white);
+  font-family: "Press Start 2P", monospace;
+  font-size: inherit;
+  outline: none;
+}
