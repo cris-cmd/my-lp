@@ -1,0 +1,5 @@
+project_id = "your-project-id"
+region     = "us-central1"
+api_image  = "gcr.io/your-project-id/api:latest"
+openai_api_key = "your-openai-api-key"
+db_connection = "postgresql://user:password@localhost:5432/dbname" 
